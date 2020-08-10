@@ -2,7 +2,7 @@
     /* margin-left: 2%; */
     height: 100%;
     width: 100%;
-    position: fixed;
+    position: absolute;
     background-color: #e3a054;
     /* background-color: #705cd6; */
 }
@@ -12,9 +12,24 @@
     margin-top: 2%;
     width: 80%;
     height: 90%;
+    overflow-x: hidden; 
+    overflow-y: auto; 
     background-image: linear-gradient(to right, #5544ad, #2c2069);
     border-radius: 20px;
 }
+
+
+.Mainapp::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.Mainapp {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
 .profile-card{
     margin-top: 20%;
 }
