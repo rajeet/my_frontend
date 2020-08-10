@@ -1,0 +1,20 @@
+.App{
+    /* margin-left: 2%; */
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: #e3a054;
+    /* background-color: #705cd6; */
+}
+.Mainapp{
+    position: relative;
+    margin-left: 10%;
+    margin-top: 2%;
+    width: 80%;
+    height: 90%;
+    background-image: linear-gradient(to right, #5544ad, #2c2069);
+    border-radius: 20px;
+}
+.profile-card{
+    margin-top: 20%;
+}
